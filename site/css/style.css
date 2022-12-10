@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #cacfd6;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 50px 0;
+    background-color: #2D3319;
+}
+h1,h2{
+    color: #517664;
+    text-align: center;
+}
+nav{
+    background-color: #9FD8CB;
+    border-color: #2D3319;
+    min-height: 64px;
+}
+nav li{
+    float: left;
+    width: 100px;
+
+}
+nav a{
+    display: block;
+    color: #D6E5E3;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+nav li a:hover{
+    color: #CACFD6;
+    background-color: #D6E5E3;
+}
+p{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color: #2D3319;
+}
+footer{
+    background-color: #9FD8CB;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.img{
+    width: 200px; 
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.img-container li{
+    display: inline-block;
+    width: 32%;
+    padding: 10px;
+}
+.img-container{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.img-container img{
+    width: 80%;
+    display: inline-block;
+    transition: 0.25s;
+}
+.img-container ul li{
+    list-style-type: none ;
+}
+.inline-img img{
+    width: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+}
+.multimedia{
+    overflow: auto;
+}
+.multimedia-video{
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+    box-sizing: border-box;
+}
+/* Практична робота №10 */
+form{
+    padding: 15px 0;
+    float: right;
+}
+.form_comment{
+    padding: 15px 0;
+    float: none;
+}
